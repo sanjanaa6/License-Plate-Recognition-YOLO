@@ -65,11 +65,10 @@ Then open `LPR_Capstone_Project.ipynb` and run cells top to bottom.
 - Traffic monitoring and analytics
 - Vehicle identification for law enforcement
 
-## Notes
+## Cases
 
 - No web frontend/API is included — this is a self-contained notebook pipeline. It can be wrapped in a FastAPI/Flask service for deployment later.
 - Plate numbers are personally identifiable information (PII) in most jurisdictions — handle logged data accordingly (encryption at rest, limited retention).
 
 ## Tech Stack
-
-Python · PyTorch · Ultralytics YOLOv8 · HuggingFace Transformers (TrOCR) · EasyOCR · OpenCV · Pandas
+python · PyTorch · Ultralytics YOLOv8 · HuggingFace Transformers (TrOCR) · EasyOCR · OpenCV · Pandas
